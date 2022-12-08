@@ -1,0 +1,35 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Esta es mi primera aplicación de Backend con Node ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesshercon/myfirstapi.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "javascript",
+    "rest"
+  ],
+  "author": "@jesshercon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jesshercon/myfirstapi/issues"
+  },
+  "homepage": "https://github.com/Jesshercon/myfirstapi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
